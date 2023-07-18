@@ -9,7 +9,7 @@ An "image tracker" tracks the color of a specific region (specifically right nex
 - a certain hue of red is present (rgb(>=162, <= 75, <=62)) or
   - <img width="493" alt="Screenshot 2023-07-18 at 19 10 44" src="https://github.com/aimanalrafi/rotmg-autonexus/assets/80934568/16cf8022-06ab-4988-899d-47d78f82d05b">
  
-- a gray color (meaning HP has fallen significantly low and has stayed long enough for the gray area to appear
+- a gray color (meaning HP has fallen significantly low and has stayed long enough for the gray area to appear)
   - <img width="494" alt="Screenshot 2023-07-18 at 19 09 10" src="https://github.com/aimanalrafi/rotmg-autonexus/assets/80934568/6042b6c7-ed4b-424b-bc37-bcb173a01be1">
 
 it triggers an action which mimics the press of the key 'R' from the user (if you do not know what R does, then you probably don't need this tool ;))
