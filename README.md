@@ -8,6 +8,7 @@ This clientless tool (for MacOS) is really simple in its nature.
 
 **hack.cpp** - this is the tool, i know the name needs to be changed
 
+***
 
 An "image tracker" tracks the color of a specific region (specifically right next to the "HP" in the HP bar"), when 
 - a certain hue of red is present (rgb(>=162, <= 75, <=62)) or
