@@ -22,7 +22,7 @@ Tracking the color of a specific region will not guarantee the prevention of goi
 
 ## Future improvements
 1. Track integer value of HP instead of color. Trigger nexus as soon as a procentual threshold (of Max HP) has been reached
-2. Predictive Auto-Nexus: Based on the projectiles shot at you and the probability of you getting hit by it, the tool makes a prediction on when to Nexus. Of course, this requires training which means maybe a small test case would have to be built, on which we can train the model on. (so that we don't have to sacrifice our characters) There is already an WebApp i believe for this, the one to train dodging O3 bullets. We can utilize this.
+2. Predictive Auto-Nexus: Based on the projectiles shot at you and the probability of you getting hit by it, the tool makes a prediction on when to Nexus. Of course, this requires training which means maybe a small test case would have to be built, on which we can train the model on ,so that we don't have to sacrifice our characters. There is already a WebApp i believe for this, the one to train dodging O3 bullets. We can utilize this.
 
 ## Suggestions
 And if you have any more suggestions, feel free to let me know! Imma check how I can make this open source (if it already isn't)
