@@ -4,9 +4,9 @@ This is a "helper" 😉 for us noobs who cant make it past a week without laying
 ## Description
 This clientless tool (for MacOS) is really simple in its nature. 
 
-*display_checker.cpp* - is to get the coordinates of the region of interest (where you want to track the color)
+**display_checker.cpp** - is to get the coordinates of the region of interest (where you want to track the color)
 
-*hack.cpp* - this is the tool, i know the name needs to be changed
+**hack.cpp** - this is the tool, i know the name needs to be changed
 
 
 An "image tracker" tracks the color of a specific region (specifically right next to the "HP" in the HP bar"), when 
