@@ -24,8 +24,8 @@ it triggers an action which mimics the press of the key 'R' from the user (if yo
 ## Improvements
 1. Instead of having just one image tracker at around 10% hp region, another image tracker is used at around 30% hp region.
 Why?
-  - Added security -> can Nexus when the 30% region is grey
-  - New functionality! -> drink HP pots when the ~30% region has been reached (orange in color)
+>- Added security -> can Nexus when the 30% region is grey
+>- New functionality! -> drink HP pots when the ~30% region has been reached (orange in color)
 
 
 ## Issues
