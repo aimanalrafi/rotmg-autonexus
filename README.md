@@ -19,11 +19,19 @@ An "image tracker" tracks the color of a specific region (specifically right nex
 
 it triggers an action which mimics the press of the key 'R' from the user (if you do not know what R does, then you probably don't need this tool ;))
 
+***
+
+## Improvements
+1. Instead of having just one image tracker at around 10% hp region, another image tracker is used at around 30% hp region.
+Why?
+- Added security -> can Nexus when the 30% region is grey
+- New functionality! -> drink HP pots when the ~30% region has been reached (orange in color)
+
+
 ## Issues
 Tracking the color of a specific region will not guarantee the prevention of going 6 feet under because
-1. The yellow inverted triangle (which signifies hp is decreasing right next to "HP" which may (though not thoroughly tested) affect the results
-2. High damage dealing shots may just shotgun you to hell without the chance to nexus
-3. Pretty sure more will come once i start using this more frequently
+1. High damage dealing shots may just shotgun you to hell without the chance to nexus (might be solved to an extent (Improvement #1)
+2. Pretty sure more will come once i start using this more frequently
 
 ## Future improvements
 1. Track integer value of HP instead of color. Trigger nexus as soon as a procentual threshold (of Max HP) has been reached
