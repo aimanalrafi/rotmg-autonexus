@@ -116,22 +116,7 @@ void monitorRegion() {
 
     // std::cout << "Color of the 30% region: R!=" << (int)red1 << " G!=" << (int)green1 << " B!=" << (int)blue1 << std::endl;
 
-        // Check if the color matches the desired value (95, 95, 95) grey x=2971.64, y = 129.678
-    // if (red == 95 && green == 95 && blue == 95) {
-    //     // Mimic user action by pressing the "R" key
-    //     mimicNexusAction();
-    // }
-    /**
-     * ((red >= 162) && (green <= 75) && (blue <= 62)) tracks all shades of red (not orange)
-     * 
-     * (((red >= 95) && (green >= 95) && (blue >= 95)) && ((red <= 220) && (green <= 220) 
-     *      && (blue <= 220))) && ((red == green) && (green == blue))
-     * 
-     * ^ tracks some shades of gray -> gray area of hp bar is not always the same gray color 
-     * though this "bug" has only happened once
-     * 
-     * 
-    */
+
     // 10% region
     if (((red >= 162) && (green <= 75) && (blue <= 62)) || ((red == 95) && (green == 95) && (blue == 95))) {
 
@@ -163,25 +148,13 @@ void monitorRegion() {
 
     }
 
-    // if (((red >= 162) && (green <= 75) && (blue <= 62)) || 
-    // ((((red >= 95) && (green >= 95) && (blue >= 95)) && ((red <= 220) && (green <= 220) && (blue <= 220))) && ((red == green) && (green == blue)))) {
-
-    //     if (!((red == 0) && (green == 0) && (blue == 0)) && !((red == 152) && (green == 152) && (blue == 152)) && !((red == 150) && (green == 150) && (blue == 150))) {
-    //         // Mimic user action by pressing the "R" key
-    //         std::cout << "Triggered: Color of the region: R=" << (int)red << " G=" << (int)green << " B=" << (int)blue << std::endl;
-
-    //         std::cout << "Danger zone! Nexus-ing!" << std::endl;
-    //         mimicNexusAction();
-    //         }
-            
-    //     }
 }
 int main() {
     std::cout <<"tracking! Good luck!" << std::endl;    
     // Monitor the region continuously
     while (true) {
         monitorRegion();
-        std::this_thread::sleep_for(std::chrono::milliseconds(250)); // Add a 100ms delay
+        std::this_thread::sleep_for(std::chrono::milliseconds(250)); 
     }
 
     return 0;
